@@ -1,5 +1,15 @@
+Utility Calculator
+==================
+
+This is a Shiny app for calculating Utility (Precision and Return on Investment) for employee selection methods.
+
+If you want to see a live version of the app, please visit https://psychometrics.shinyapps.io/utility/
+
+The code is available here for transparency, collaboration in developing the functionality further and for downloading and using the app locally. 
+
+
 How to use this app on your computer
-====================================
+------------------------------------
 
 1. Download and install R and (optionally) RStudio.
 
