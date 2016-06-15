@@ -22,6 +22,6 @@ How to use this app on your computer
 
 4. Run the app by typing the following (Change `PATH` to the path where you saved the repository):
 
-  `runApp("PATH")`
+  `shiny::runApp("PATH")`
 
 Enjoy!
