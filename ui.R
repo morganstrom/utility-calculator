@@ -137,7 +137,7 @@ shinyUI(
         strong("Precision"),
         p(),
         HTML("The probability of a successful hire is here defined as the precision, 
-             or <a href='https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values'>positive predictive value</a>, 
+             or <a href='https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values' target='_blank'>positive predictive value</a>, 
              of the selection method:"),
         br(),
         br(),
@@ -147,7 +147,7 @@ shinyUI(
         HTML("Where \\(A\\) is the event that a given candidate will perform well on the job (i.e. ends up above the horizontal line of the graph) and 
              \\(B\\) is the event that a given candidate performs well on the assessment (i.e ends up to the right of the vertical line of the graph).
              The conditional probability \\(P(A \\mid B)\\) can be calculated using properties of the 
-             <a href='https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Bivariate_case'>bivariate normal distribution function</a>. 
+             <a href='https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Bivariate_case'  target='_blank'>bivariate normal distribution function</a>. 
              If you want to check the results, you should get similar results by dividing the number of green points with the 
              total number of green and red points from the simulation above."),
         br(),
