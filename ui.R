@@ -17,7 +17,8 @@ shinyUI(
     tags$head( tags$script(src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full", 
                            type = 'text/javascript'),
                tags$script("MathJax.Hub.Config({tex2jax: {inlineMath: [['$$','$$'], ['\\\\(','\\\\)']]}});", 
-                           type='text/x-mathjax-config')
+                           type='text/x-mathjax-config'),
+               includeScript("google_analytics.js")
     ),
     
     #App title
