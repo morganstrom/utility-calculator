@@ -20,8 +20,8 @@ e.g. `"C:\Users\morgstro\Documents"` on a Windows computer or `"~/Documents"` on
 
   `install.packages(c("shiny", "mvtnorm", "MASS", "dplyr", "ggvis"))`
 
-4. Run the app by typing the following. `PATH` is a string specifying the path to the directory where you saved the repository. Remember to use `/` and not `\` to specify the path in Windows.
+4. Run the app by typing the command `runApp` in the console. `appDir` is a string argument that points to the directory where you saved the repository. Remember to use `/` to specify the path (even in Windows). The example below is for a Windows system:
 
-  `shiny::runApp(appDir = PATH)`
+  `shiny::runApp(appDir = "C:/Users/morgstro/Documents/utility-calculator-master")`
 
 Enjoy!
