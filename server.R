@@ -1,7 +1,10 @@
-#One visualization to rule them all...
+#Shiny server for utility calculator
+#Author: Morgan Strom
+#Date: 2016-06-29
 
 #Todo:
 #Change y-axis in visualization if ROI calculation box is checked?
+#Add "x" on the graph to mark expected performance of hired group, if ROI box is checked?
 #Explain that the visualisation shows a maximum of 1000 data points
 
 #Clear memory and load packages
@@ -99,7 +102,7 @@ shinyServer(function(input, output, session) {
         paste0("The probability of a successful hire is ", p, 
                "%. This follows from a predictive validity of ", pred_val(), 
                ", a base rate of ", round(input$baserate, 2), 
-               "% successful incumbents and selecting the top ", x.perc,
+               "% successful applicants and selecting the top ", x.perc,
                "% from the assessment (cut-off z = ", round(cut_x(), 2), ").")
         
       } else paste("The probability cannot be calculated. Please make sure that the number of applicants is larger than the number of positions to fill.")

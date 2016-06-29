@@ -1,4 +1,6 @@
-#UI
+#Shiny UI for utility calculator
+#Author: Morgan Strom
+#Date: 2016-06-29
 
 #For comparisons of results:
 #http://www.hr-software.net/cgi/TheoreticalExpectancy.cgi
