@@ -81,7 +81,12 @@ shinyUI(
                          label = "Est. cost per assessment (EUR):",
                          value = 150,
                          min = 1,
-                         max = 5000)
+                         max = 5000),
+            sliderInput("sdy",
+                        label = "Standard deviation of utility (% of salary)",
+                        value = 40,
+                        min = 0,
+                        max = 200)
           ),
           #submitButton(),
           br(),

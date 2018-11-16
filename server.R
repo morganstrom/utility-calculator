@@ -225,7 +225,7 @@ shinyServer(function(input, output, session) {
       sr <- pnorm(cut_x(), lower.tail = FALSE)
       
       #SDy: standard deviation of utility for the role
-      SDy <- input$salary * 0.4 #general rule from Schmidt, Hunter & Pearlman (1982) (page 368 Mabon 2006)
+      SDy <- input$salary * (input$sdy / 100) #general rule from Schmidt, Hunter & Pearlman (1982) (page 368 Mabon 2006)
       
       #phi: ordinate (density) in normal distribution at cut-off
       phi <- dnorm(cut_x()) 
