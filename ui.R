@@ -95,8 +95,7 @@ shinyUI(
                  <a href=\"http://shiny.rstudio.com/\" target=\"_blank\">Shiny</a>. 
                  Created by
                  <a href=\"https://www.linkedin.com/pub/morgan-str%C3%B6m/21/844/556\" target=\"_blank\">
-                 Morgan Str&ouml;m</a>. Get in touch! 
-                 <a href=\"mailto:morgan.e.strom@gmail.com\">morgan.e.strom@gmail.com</a></font>"))
+                 Morgan Str&ouml;m</a>.</font>"))
           
         )
       ), 
