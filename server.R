@@ -1,5 +1,5 @@
 #Shiny server for utility calculator
-#Author: Morgan Strom
+#Author: Morgan Pihl
 #Date: 2016-06-29
 
 #Todo:

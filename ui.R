@@ -1,5 +1,5 @@
 #Shiny UI for utility calculator
-#Author: Morgan Strom
+#Author: Morgan Pihl
 #Date: 2016-06-29
 
 #For comparisons of results:
@@ -94,8 +94,8 @@ shinyUI(
                  <a href=\"http://cran.r-project.org/\" target=\"_blank\">R</a> using 
                  <a href=\"http://shiny.rstudio.com/\" target=\"_blank\">Shiny</a>. 
                  Created by
-                 <a href=\"https://www.linkedin.com/pub/morgan-str%C3%B6m/21/844/556\" target=\"_blank\">
-                 Morgan Str&ouml;m</a>.</font>"))
+                 <a href=\"https://www.linkedin.com/in/morganpihl\" target=\"_blank\">
+                 Morgan Pihl</a>.</font>"))
           
         )
       ), 
